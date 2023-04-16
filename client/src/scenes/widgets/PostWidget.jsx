@@ -36,7 +36,7 @@ const PostWidget = ({
 
   const patchLike = async () => {
     const response = await fetch(
-      `https://mediafy.onrender.com/posts/${postId}/like`,
+      `https://social-media-0fdq.onrender.com/posts/${postId}/like`,
       {
         method: "PATCH",
         headers: {
@@ -67,7 +67,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://mediafy.onrender.com/assets/${picturePath}`}
+          src={`https://social-media-0fdq.onrender.com/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">
